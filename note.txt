@@ -1,0 +1,13 @@
+browser support korar jnno same code take aro 3 bar likhte hbe
+ex:
+background-size:cover;
+-webkit-background-size:cover ;(webkit=opera,safari.chorme)
+-moz-background-size:cover;(mozila)
+
+
+content boro hole background image boro hbe nhle hbe na.
+min-height use korle image ta boro hbe
+text transfer: uppercase:shob gula boro hoye jabe
+text transfer :lowecase:shob gula choto hoye jabe
+text transfer capitalize:protek ta word er first letter boro korbe....
+line height word spacing letter spacing...

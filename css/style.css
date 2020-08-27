@@ -1,0 +1,250 @@
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	padding:15PX 0;
+}
+.container{
+	width:80%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+	overflow:hidden;
+
+}
+
+.logo { width:20%;
+	/*border:1px solid red;*/
+    float:left;
+}
+.logo img{
+	width:100%;
+}
+
+.menu { width:79%;
+	/*border:1px solid red;*/
+	float:right;
+	margin-top:10PX;
+}
+
+.menu ul {
+ float: right;
+ } 
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color:#535D69;
+    text-decoration:none;
+    padding:0 10px;
+    display: inline-block;
+    transition:.3s;
+
+}.menu ul li:last-child a{
+	padding-right:0;
+}
+.menu ul li a:hover{
+	color:#BD233F;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/bzns_women.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top center;
+	/*min-height: 450px;*/
+
+}
+.b_content{
+	margin-top: 120px;
+	margin-bottom: 120px;
+	width: 50%;
+	/*border:1px solid white;*/
+}
+
+.b_content h1{
+	font-family: sans-serif;
+	font-size:50px;
+	color:white;
+	letter-spacing:1px;
+	text-transform: capitalize;
+	margin-top:0;
+	margin-bottom: 25px;
+
+}
+.b_content p {
+	font-family: sans-serif;
+	font-size:18px;
+	color: white;
+	margin-top:0;
+	margin-bottom: 15px;
+
+}
+.b_content button {
+	width: 260px;
+	height: 50px;
+background-color: #BD2242;
+border: none;
+font-family: sans-serif;
+font-size:15px;
+color:white;
+text-transform: uppercase;
+margin-top: 30px;
+cursor: pointer;
+}
+
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+.how_it_works{
+	padding: 100px 0;
+
+}
+.first_part{
+		width: 70%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	font-family: sans-serif;
+	text-align:center;
+	margin-bottom: 70px;
+
+
+}
+.first_part h1{
+   	color: #1F1F1F;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+
+}
+.first_part p{
+	font-size: 17px;
+	color: #89A6C4;
+	line-height: 23px;
+	margin: 0;
+
+}
+.second_part{
+    margin-bottom: 50px;
+	overflow: hidden;
+}
+.single_item{
+	float: left;
+	width: 24%;
+	/*border:1px solid black;*/
+	text-align: center;
+	padding:0 1.5%;
+	margin: 0px 3.16%;
+
+}
+.single_item img{
+	width: 50%;
+
+}
+.single_item p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #1F1F1F;
+}
+.learn_the_process{
+	overflow: hidden;
+
+
+}
+
+.left{
+	width: 46%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.left h1{
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.left p{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: grey;
+}
+.left button{
+		width: 260px;
+	height: 50px;
+background-color: #BD2242;
+border: none;
+font-family: sans-serif;
+font-size:15px;
+color:white;
+text-transform: uppercase;
+margin-top: 30px;
+cursor: pointer;
+}
+
+.right{
+	width:49%;
+	/*border: 1px solid red;*/
+	float:right;
+	text-align: right;
+}
+.right iframe{
+	width:450px;
+	height:260px;
+	margin:-13px;
+}
+.features{
+	font-family: sans-serif;
+    text-align: center;
+      margin: 100px 0 80px;
+}
+.features h1{}
+
+.features p{
+	color: grey;
+}
+.features_list{
+	    margin: 100px 0 150px;
+    
+}
+.single_part{
+	float: left;
+	width: 24%;
+	/*border:1px solid black;*/
+	text-align: center;
+	padding:0 1.5%;
+	margin: 0px 3.16%;
+
+}
+.single_part img{
+	width: 25%;
+
+}
+.single_part h1{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:15px;
+}
+
+.single_part p{
+	color:grey;
+
+}
+.footer{
+	min-height: 70px;
+	background-color: grey;
+
+}
+.footer h5{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	margin: 0px;
+    padding: 24px;
+}
+
+/*the end*/
